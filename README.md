@@ -76,11 +76,11 @@ Selain fitur search, aplikasi ini juga memiliki fitur filter berdasarkan program
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6bb1297a-d161-4fd0-9cd1-6e3fd5357625" />
 
 
-### Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 Aplikasi ini dibangun menggunakan beberapa teknologi utama berikut:
 
-Flutter
+- Flutter
 
 Flutter merupakan framework open-source yang dikembangkan oleh Google untuk membuat aplikasi mobile, web, dan desktop menggunakan satu codebase. Flutter digunakan dalam project ini karena memiliki performa yang tinggi serta menyediakan berbagai widget yang memudahkan proses pembuatan UI.
 
@@ -97,22 +97,18 @@ Provider digunakan sebagai state management dalam aplikasi ini. Provider memudah
 
 Aplikasi ini menggunakan Material Design yang merupakan sistem desain dari Google. Material UI menyediakan berbagai komponen UI seperti AppBar, TextField, Button, Card, ListTile, Dialog, Icon
 
-📂 Struktur Folder Project
+## Struktur Folder Project
 
 Berikut adalah struktur folder utama dalam project ini:
 
 lib/
-│
 ├── main.dart
-│
 ├── models/
-│   └── registrant_model.dart
-│
+registrant_model.dart
 ├── providers/
-│   └── registration_provider.dart
-│
+registration_provider.dart
 ├── pages/
-│   ├── registration_page.dart
-│   ├── registrant_list_page.dart
-│   └── registrant_detail_page.dart
+registration_page.dart
+registrant_list_page.dart
+registrant_detail_page.dart
 
