@@ -35,9 +35,7 @@ jika sudah berhasil mendaftar maka tampilan seperti ini, akan ada dua pilihan tu
 
 ### Multi-Step Form (Stepper)
 
-Form registrasi dalam aplikasi ini dibagi menjadi dua langkah menggunakan widget Stepper.
-
-Tujuan penggunaan Stepper adalah untuk membuat proses pengisian form menjadi lebih terstruktur dan tidak terlalu panjang dalam satu halaman.Langkah pertama digunakan untuk mengisi data akun.
+Form registrasi dalam aplikasi ini dibagi menjadi dua langkah menggunakan widget Stepper. Tujuan penggunaan Stepper adalah untuk membuat proses pengisian form menjadi lebih terstruktur dan tidak terlalu panjang dalam satu halaman.Langkah pertama digunakan untuk mengisi data akun.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5e31a2bc-40bf-4874-a873-472b2d30355b" />
 
@@ -47,30 +45,14 @@ sedangkan langkah kedua digunakan untuk mengisi data tambahan seperti program st
 
 ### Halaman Daftar Peserta
 
-Halaman ini menampilkan daftar semua peserta yang telah melakukan pendaftaran pada aplikasi.
-
-Informasi yang ditampilkan pada halaman ini meliputi:
-Nama peserta, Email peserta, Program studi peserta
-
-Pada halaman ini pengguna juga dapat melakukan beberapa aksi seperti melihat detail peserta, mengedit data peserta, serta menghapus data peserta dari daftar.
+Halaman ini menampilkan daftar semua peserta yang telah melakukan pendaftaran pada aplikasi. Informasi yang ditampilkan pada halaman ini meliputi Nama peserta, Email peserta, Program studi peserta. Pada halaman ini pengguna juga dapat melakukan beberapa aksi seperti melihat detail peserta, mengedit data peserta, serta menghapus data peserta dari daftar.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3bd6e315-2296-4c4d-b37e-279d7387e2a6" />
 
 
 ### Halaman Detail Peserta
 
-Halaman detail peserta digunakan untuk menampilkan informasi lengkap dari seorang peserta yang telah terdaftar.
-
-Informasi yang ditampilkan antara lain:
-Nama lengkap
-Email
-Jenis kelamin
-Program studi
-Tanggal lahir
-Umur peserta
-Waktu pendaftaran
-
-Halaman ini juga menyediakan tombol untuk mengedit data peserta atau menghapus data peserta.
+Halaman detail peserta digunakan untuk menampilkan informasi lengkap dari seorang peserta yang telah terdaftar. Informasi yang ditampilkan antara lain Nama lengkap, Email, Jenis kelamin, Program studi, Tanggal lahir, Umur peserta, Waktu pendaftaran. Halaman ini juga menyediakan tombol untuk mengedit data peserta atau menghapus data peserta.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6356f049-be72-4a74-82a4-168342530c39" />
 
@@ -82,14 +64,7 @@ Aplikasi ini menyediakan fitur untuk mengedit data peserta yang telah terdaftar 
 
 ### Search Peserta
 
-Fitur search memungkinkan pengguna untuk mencari data peserta dengan cepat.
-
-Pengguna dapat melakukan pencarian berdasarkan:
-Nama peserta
-Email peserta
-Program studi peserta
-
-Fitur ini sangat membantu ketika jumlah peserta yang terdaftar sudah cukup banyak.
+Fitur search memungkinkan pengguna untuk mencari data peserta dengan cepat.Pengguna dapat melakukan pencarian berdasarkan Nama peserta, Email peserta, Program studi peserta, Fitur ini sangat membantu ketika jumlah peserta yang terdaftar sudah cukup banyak.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4318192f-620a-486e-af7b-306b566c1dc3" />
 
@@ -111,28 +86,16 @@ Flutter merupakan framework open-source yang dikembangkan oleh Google untuk memb
 
 - Dart
 
-Dart merupakan bahasa pemrograman yang digunakan oleh Flutter. Bahasa ini digunakan untuk menulis seluruh logic aplikasi seperti:
+Dart merupakan bahasa pemrograman yang digunakan oleh Flutter. Bahasa ini digunakan untuk menulis seluruh logic aplikasi seperti
 pembuatan model data, pengelolaan state, validasi form, navigasi antar halaman
 
 - Provider
 
-Provider digunakan sebagai state management dalam aplikasi ini. Provider memudahkan pengelolaan data peserta sehingga data dapat digunakan oleh berbagai halaman tanpa harus mengirim data secara manual. Fungsi Provider dalam aplikasi ini antara lain:
-Menyimpan data peserta
-Menambahkan peserta baru
-Mengupdate data peserta
-Menghapus peserta
-Mengambil data peserta berdasarkan ID
+Provider digunakan sebagai state management dalam aplikasi ini. Provider memudahkan pengelolaan data peserta sehingga data dapat digunakan oleh berbagai halaman tanpa harus mengirim data secara manual. Fungsi Provider dalam aplikasi ini antara lain Menyimpan data peserta, Menambahkan peserta baru, Mengupdate data peserta, Menghapus peserta, Mengambil data peserta berdasarkan ID.
 
 - Material UI
 
-Aplikasi ini menggunakan Material Design yang merupakan sistem desain dari Google. Material UI menyediakan berbagai komponen UI seperti:
-AppBar
-TextField
-Button
-Card
-ListTile
-Dialog
-Icon
+Aplikasi ini menggunakan Material Design yang merupakan sistem desain dari Google. Material UI menyediakan berbagai komponen UI seperti AppBar, TextField, Button, Card, ListTile, Dialog, Icon
 
 📂 Struktur Folder Project
 
