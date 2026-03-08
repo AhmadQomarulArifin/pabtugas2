@@ -102,13 +102,22 @@ Aplikasi ini menggunakan Material Design yang merupakan sistem desain dari Googl
 Berikut adalah struktur folder utama dalam project ini:
 
 lib/
+
 ├── main.dart
+
 ├── models/
+
 registrant_model.dart
+
 ├── providers/
+
 registration_provider.dart
+
 ├── pages/
+
 registration_page.dart
+
 registrant_list_page.dart
+
 registrant_detail_page.dart
 
